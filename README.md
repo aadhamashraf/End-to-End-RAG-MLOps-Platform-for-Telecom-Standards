@@ -6,15 +6,15 @@
 A production-grade AI system that enables telecom engineers to query, personalize, and reason over 3GPP/ITU-T standards using **Retrieval-Augmented Generation (RAG)**, **model optimization**, and **full MLOps lifecycle automation**.
 
 **This is not just a chatbot** — it's a self-updating knowledge system that:
-- 📚 Ingests telecom standards
-- 🔍 Retrieves relevant specifications
-- 🤖 Generates grounded answers
-- 📊 Learns from user behavior
-- ⚡ Optimizes itself for deployment constraints
+- Ingests telecom standards
+- Retrieves relevant specifications
+- Generates grounded answers
+- Learns from user behavior
+- Optimizes itself for deployment constraints
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TB
@@ -50,38 +50,38 @@ graph TB
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 Core RAG Pipeline
-- **Intelligent Chunking**: Optimized for telecom spec sections, tables, and procedures
-- **Hybrid Retrieval**: Combines semantic search (vector similarity) + keyword search (BM25)
-- **Domain Boosting**: Personalized retrieval based on user preferences (URLLC, eMBB, V2X)
-- **Grounded Generation**: Fine-tuned LLM with QLoRA for telecom-specific language
+### Core RAG Pipeline
+- Intelligent Chunking: Optimized for telecom spec sections, tables, and procedures
+- Hybrid Retrieval: Combines semantic search (vector similarity) + keyword search (BM25)
+- Domain Boosting: Personalized retrieval based on user preferences (URLLC, eMBB, V2X)
+- Grounded Generation: Fine-tuned LLM with QLoRA for telecom-specific language
 
-### 🔬 MLOps Automation
-- **LLM-as-a-Judge**: Automated evaluation of answer quality, relevance, and groundedness
-- **Experiment Tracking**: MLflow/W&B integration for model versioning
-- **CI/CD Pipeline**: Automated testing, evaluation, and deployment
-- **Metrics Dashboard**: Real-time monitoring of system performance
+### MLOps Automation
+- LLM-as-a-Judge: Automated evaluation of answer quality, relevance, and groundedness
+- Experiment Tracking: MLflow/W&B integration for model versioning
+- CI/CD Pipeline: Automated testing, evaluation, and deployment
+- Metrics Dashboard: Real-time monitoring of system performance
 
-### 🎨 Personalization
-- **User Profiling**: Learn from query history and interaction patterns
-- **Adaptive Ranking**: Re-rank results based on user domain expertise
-- **Feedback Loop**: Continuous improvement from user ratings
+### Personalization
+- User Profiling: Learn from query history and interaction patterns
+- Adaptive Ranking: Re-rank results based on user domain expertise
+- Feedback Loop: Continuous improvement from user ratings
 
-### ⚡ Edge Optimization
-- **4-bit/8-bit Quantization**: Reduce model size by 75% with minimal quality loss
-- **ONNX Export**: Cross-platform deployment
-- **TensorRT Support**: GPU acceleration for low-latency inference
+### Edge Optimization
+- 4-bit/8-bit Quantization: Reduce model size by 75% with minimal quality loss
+- ONNX Export: Cross-platform deployment
+- TensorRT Support: GPU acceleration for low-latency inference
 
-### 🔍 Explainability (XAI)
+### Explainability (XAI)
 - **SHAP Analysis**: Explain why specific documents were retrieved
 - **LIME**: Local interpretability for query understanding
 - **Citation Tracking**: Transparent source attribution
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -99,7 +99,7 @@ graph TB
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -150,7 +150,7 @@ The API will be available at `http://localhost:8000`. Visit `http://localhost:80
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ```bash
 cd docker
@@ -164,7 +164,7 @@ This starts:
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Query via API
 
@@ -205,7 +205,7 @@ print(result["answer"])
 
 ---
 
-## 🧪 Training & Fine-Tuning
+## Training & Fine-Tuning
 
 ### Prepare Training Data
 
@@ -247,7 +247,7 @@ trainer.train(
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 ### Run Evaluation Suite
 
@@ -271,7 +271,7 @@ Visit `http://localhost:5000` to view experiment tracking.
 
 ---
 
-## 🎯 Project Structure
+## Project Structure
 
 ```
 auto-standard/
@@ -299,7 +299,7 @@ auto-standard/
 
 ---
 
-## 🧩 Advanced Features
+## Advanced Features
 
 ### Personalization
 
@@ -344,7 +344,7 @@ print(explanation)
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -359,7 +359,7 @@ pytest tests/unit/test_chunker.py -v
 
 ---
 
-## 📈 Performance
+## Performance
 
 | Metric | Value |
 |--------|-------|
@@ -371,7 +371,7 @@ pytest tests/unit/test_chunker.py -v
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -382,13 +382,13 @@ Contributions are welcome! Please:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **3GPP** and **ITU-T** for telecom standards
 - **Hugging Face** for transformers and PEFT
@@ -396,14 +396,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **MLflow** for experiment tracking
 
 ---
-
-## 📧 Contact
-
-For questions or collaboration:
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-
----
-
-**Built with ❤️ for the telecom community**
