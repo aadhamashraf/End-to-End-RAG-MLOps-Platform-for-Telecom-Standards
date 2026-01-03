@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/raw/*.pdf
+data/processed/
+data/embeddings/
+
+# Models
+models/
+*.pth
+*.bin
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# Docker
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db

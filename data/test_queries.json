@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is URLLC?",
+    "ground_truth": "Ultra-Reliable Low-Latency Communication (URLLC) is a 5G service category designed for applications requiring high reliability and low latency, such as industrial automation and autonomous vehicles.",
+    "relevant_docs": ["doc_urllc_1", "doc_urllc_2"]
+  },
+  {
+    "question": "Explain 5G network slicing",
+    "ground_truth": "Network slicing is a 5G feature that allows multiple virtual networks to be created on top of a shared physical infrastructure, each optimized for specific use cases.",
+    "relevant_docs": ["doc_slicing_1", "doc_slicing_2", "doc_slicing_3"]
+  },
+  {
+    "question": "What are the latency requirements for URLLC in Release 17?",
+    "ground_truth": "Release 17 specifies latency requirements of 1ms for URLLC services in specific scenarios.",
+    "relevant_docs": ["doc_rel17_urllc_1"]
+  }
+]
