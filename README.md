@@ -1,8 +1,5 @@
 # Auto-Standard: End-to-End RAG & MLOps Platform for Telecom Standards
 
-[![CI](https://github.com/yourusername/auto-standard/workflows/CI/badge.svg)](https://github.com/yourusername/auto-standard/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A production-grade AI system that enables telecom engineers to query, personalize, and reason over 3GPP/ITU-T standards using **Retrieval-Augmented Generation (RAG)**, **model optimization**, and **full MLOps lifecycle automation**.
 
 **This is not just a chatbot** — it's a self-updating knowledge system that:
